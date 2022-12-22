@@ -1,3 +1,5 @@
 SELECT `name` FROM `teachers` WHERE 1
 SELECT `name`, `head_of_department` FROM `departments` WHERE 1
+SELECT `name`, `surname` FROM `students` WHERE `date_of_birth` > `1992`
+SELECT `name` FROM `courses` WHERE `year` = `1` AND `period` = `1`
 
