@@ -1,0 +1,3 @@
+SELECT `name` FROM `teachers` WHERE 1
+SELECT `name`, `head_of_department` FROM `departments` WHERE 1
+
